@@ -4350,7 +4350,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'compressed.tracemonkey-pldi-09.pdf',
+    value: '../resume/resume_lxy.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
