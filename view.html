@@ -1,0 +1,11 @@
+<body>
+        <iframe id="xy" src="http://192.168.1.146:2020/js/PDF.js/web/viewer.html?file=http://192.168.1.146:2020/image/test.pdf"></iframe>
+        <script type="text/javascript">
+                $('#xy').load(function(){
+                    $('#xy').contents().find('body').find('#secondaryToolbarToggle').hide();
+                    $('#xy').contents().find('body').find('#viewFind').hide();
+                    $('#xy').contents().find('body').find('#sidebarToggle').hide();
+                    $('#xy').contents().find('body').find('#toolbarViewerMiddle').css('float','right');
+                });
+        </script>
+</body>
